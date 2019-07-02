@@ -1,0 +1,71 @@
+/**/
+
+body{
+  background-color: dimgray;
+}
+
+.container{
+  width: 95%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(to bottom, #33cccc 0%, #006666 100%);
+  border-radius: 5px 5px 5px 5px;
+}
+
+@font-face{
+  font-family: "balakhani";
+  src: url("../fonts/balakhani.ttf") format("truetype");
+}
+
+h2{
+  text-align: center;
+  font-family: balakhani;
+  font-style: bold;
+  font-size: 35px;
+  color: white;
+}
+
+#imgCamera{
+  width: 98%;
+}
+
+#imgFoto{
+  width: 98%;
+  border-width: 2px;
+  border-style: inset;
+  border-color: whitesmoke;
+}
+
+.ft{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rfoto{
+  text-align: center;
+}
+
+.ll{
+  max-width: 100%;
+}
+
+label{
+  font-family: balakhani;
+  font-size: 18px;
+  color: white;
+}
+
+.botao{
+  font-family: balakhani;
+  font-size: 18px;
+  align-content: middle;
+}
+
+#map{
+  height: 400px;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px 5px 5px 5px;
+}
+
